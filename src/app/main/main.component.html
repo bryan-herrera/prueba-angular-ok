@@ -1,0 +1,116 @@
+<main class="site-content">
+        <div class="row no-gutters justify-content-center mb-5">
+            <div class="col-12">
+                <h2 class="text-center">
+                    Cotiza tu seguro automotriz
+                </h2>
+                <h5 class="text-center">¡Resultados instantáneos!</h5>
+            </div>
+        </div>
+        <div class="position-relative">
+            <div class="background-blue"></div>
+            <div class="component-screen">
+                <div class="screen-left">
+                    <div class="carousel_asegurado">
+                        <owl-carousel-o [options]="customOptions">
+                          <ng-template carouselSlide><img src="assets/img/logo.jpg"></ng-template>
+                          <ng-template carouselSlide><img src="assets/img/logo.jpg"></ng-template>
+                          <ng-template carouselSlide><img src="assets/img/logo.jpg"></ng-template>
+                        </owl-carousel-o>
+                        <div class="slider-counter"></div>
+                    </div>
+                </div>
+                <div class="screen-right">
+                    <div class="form_as">
+                        <form action="" class="form-content_as">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <label class="form-label">Marca del auto</label>
+                                        <div class="caja">
+                                            <select class="form-input">
+                                                <option></option>
+                                                <option value="saab">Opción 1</option>
+                                                <option value="opel">Opción 2</option>
+                                                <option value="audi">Opción 3</option>
+                                            </select>
+                                        </div>
+                                        <label class="error-text_as">Este campo es obligatorio</label>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-7 col-md-6">
+                                    <div class="form-group">
+                                        <label class="form-label">Modelo del auto</label>
+                                        <div class="caja">
+                                            <select class="form-input">
+                                                <option></option>
+                                                <option value="saab">Opción 1</option>
+                                                <option value="opel">Opción 2</option>
+                                                <option value="audi">Opción 3</option>
+                                            </select>
+                                        </div>
+                                        <label class="error-text_as">Este campo es obligatorio</label>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-5 col-md-6">
+                                    <div class="form-group">
+                                        <label class="form-label">Año</label>
+                                        <div class="caja">
+                                            <select class="form-input">
+                                                <option></option>
+                                                <option value="saab">Opción 1</option>
+                                                <option value="opel">Opción 2</option>
+                                                <option value="audi">Opción 3</option>
+                                            </select>
+                                        </div>
+                                        <label class="error-text_as">Este campo es obligatorio</label>
+                                    </div>
+                                </div>
+
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <label class="form-label">Email</label>
+                                        <div class="caja-in">
+                                            <input class="form-input" type="email" />
+                                        </div>
+                                        <label class="error-text_as">Este campo es obligatorio</label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <label class="form-label">Teléfono celular</label>
+                                        <div class="caja-in">
+                                            <input class="form-input" type="tel" />
+                                        </div>
+                                        <label class="error-text_as">Este campo es obligatorio</label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="btn-component_as">
+                                        <a class="btn-form_as" data-modal-trigger="sample-modal2">Cotizar ahora</a>
+                                        <div class="modal" data-modal-name="sample-modal2" data-modal-dismiss>
+                                            <div class="modal__dialog">
+                                                <button class="modal__close" data-modal-dismiss>×</button>
+                                                <img src="img/icon-modal-02.svg" alt="">
+                                                <h2>Acontinución encontrarás los datos que diligenciaste</h2>
+                                                <ul>
+                                                    <li><strong>Marca del auto:</strong>BMW</li>
+                                                    <li><strong>Modelo del auto:</strong>M135i</li>
+                                                    <li><strong>Año:</strong>2020</li>
+                                                    <li><strong>Email:</strong>********@gmail.com</li>
+                                                    <li><strong>Teléfono celular:</strong>3205467865</li>
+                                                </ul>
+                                                <div class="btn-component_as">
+                                                    <a href="" class="btn-modal_as">Aceptar</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
